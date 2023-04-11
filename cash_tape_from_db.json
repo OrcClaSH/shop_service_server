@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe580b"
+  },
+  "id": 0,
+  "imageUrl": "https://s3.ibta.ru/goods/111275/01506ae79cb2ca47cce571697e8e93cb_l.jpg",
+  "title": "Чековая лента для МОБИЛЬНЫХ КАСС - BRAUBERG",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    30,
+    40,
+    57
+  ],
+  "price": 803,
+  "category": 2,
+  "rating": 4,
+  "full_data": "Чековая лента для МОБИЛЬНЫХ КАСС; КОМПЛЕКТ 16 шт.; BRAUBERG"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe580c"
+  },
+  "id": 1,
+  "imageUrl": "https://s3.ibta.ru/goods/110896/ecf8d43d6f972457ecd288a07bb9f057_l.jpg",
+  "title": "Чековая лента - BRAUBERG",
+  "types": [
+    0
+  ],
+  "sizes": [
+    40,
+    80
+  ],
+  "price": 245,
+  "category": 2,
+  "rating": 6,
+  "full_data": "Чековая лента; КОМПЛЕКТ 6 шт.; BRAUBERG"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe580d"
+  },
+  "id": 2,
+  "imageUrl": "https://s3.ibta.ru/goods/110368/601ca5b6ecd81daf8d34c285455e4d05_l.jpg",
+  "title": "Чековая лента - AKZENT",
+  "types": [
+    0
+  ],
+  "sizes": [
+    57
+  ],
+  "price": 295,
+  "category": 1,
+  "rating": 4,
+  "full_data": "Чековая лента; КОМПЛЕКТ 18 шт.; AKZENT"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe580e"
+  },
+  "id": 3,
+  "imageUrl": "https://s3.ibta.ru/goods/110448/305c50f7aa9cbbcba01ecdf2f96c68fa_l.jpg",
+  "title": "Чековая лента - STAFF",
+  "types": [
+    1
+  ],
+  "sizes": [
+    57,
+    80
+  ],
+  "price": 275,
+  "category": 2,
+  "rating": 2,
+  "full_data": "Чековая лента; КОМПЛЕКТ 8 шт.; STAFF"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe580f"
+  },
+  "id": 4,
+  "imageUrl": "https://s3.ibta.ru/goods/110361/51cc35d082d72a704ad3c14371f6a566_l.jpg",
+  "title": "Чековая лента - NBK",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    40,
+    57,
+    80
+  ],
+  "price": 415,
+  "category": 1,
+  "rating": 8,
+  "full_data": "Чековая лента; КОМПЛЕКТ 12 шт.; NBK"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe5810"
+  },
+  "id": 5,
+  "imageUrl": "https://s3.ibta.ru/goods/110893/91ffa3eba235de5a6ac6a182a1384cd5_l.jpg",
+  "title": "Чековая лента - ОФИСМАГ",
+  "types": [
+    0
+  ],
+  "sizes": [
+    30,
+    40
+  ],
+  "price": 580,
+  "category": 2,
+  "rating": 2,
+  "full_data": "Чековая лента; КОМПЛЕКТ 9 шт.; ОФИСМАГ"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe5811"
+  },
+  "id": 6,
+  "imageUrl": "https://s3.ibta.ru/goods/110900/3bbf8fb9b03b49a6479929350c0dc1f2_l.jpg",
+  "title": "Чековая лента - BRAUBERG",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    26,
+    30,
+    40
+  ],
+  "price": 675,
+  "category": 1,
+  "rating": 9,
+  "full_data": "Чековая лента; КОМПЛЕКТ 8 шт.; BRAUBERG"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe5812"
+  },
+  "id": 7,
+  "imageUrl": "https://s3.ibta.ru/goods/110362/51cc35d082d72a704ad3c14371f6a566_l.jpg",
+  "title": "Чековая лента - NBK",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    26,
+    30,
+    40
+  ],
+  "price": 450,
+  "category": 1,
+  "rating": 10,
+  "full_data": "Чековая лента; КОМПЛЕКТ 6 шт.; NBK"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe5813"
+  },
+  "id": 8,
+  "imageUrl": "https://s3.ibta.ru/goods/110371/64611dd743a2b96ab9f4bf135b533e97_l.jpg",
+  "title": "Чековая лента - STARLESS",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    26,
+    30,
+    40
+  ],
+  "price": 395,
+  "category": 2,
+  "rating": 10,
+  "full_data": "Чековая лента; КОМПЛЕКТ 8 шт.; STARLESS"
+},{
+  "_id": {
+    "$oid": "63b8d844fe862935c7fe5814"
+  },
+  "id": 9,
+  "imageUrl": "https://s3.ibta.ru/goods/110886/ad05db922e947ff678d8a4c43917b06d_l.jpg",
+  "title": "Чековая лента - BRAUBERG",
+  "types": [
+    0,
+    1
+  ],
+  "sizes": [
+    26,
+    30,
+    40
+  ],
+  "price": 285,
+  "category": 1,
+  "rating": 7,
+  "full_data": "Чековая лента; КОМПЛЕКТ 12 шт.; BRAUBERG"
+}]
