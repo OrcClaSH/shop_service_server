@@ -4,6 +4,8 @@ const userService = require('../service/user-service');
 const ApiError = require('../exceptions/api-error');
 
 const MAX_AGE = 30 * 24 * 60 * 60 * 1000;
+const COOKIE_NAME_RT = 'refreshToken'
+const COOKIE_OPTIONS = {maxAge: MAX_AGE, httpOnly: true, sameSite: 'lax'}
 
 class UserController {
     async registration(req, res, next) {
@@ -14,7 +16,7 @@ class UserController {
             };
             const { email, password } = req.body;
             const userData = await userService.registration(email, password);
-            res.cookie('refreshToken', userData.refreshToken, {maxAge: MAX_AGE, httpOnly: true});
+            res.cookie(COOKIE_NAME_RT, userData.refreshToken, COOKIE_OPTIONS);
             return res.json(userData);
         } catch (e) {
             next(e);
@@ -25,7 +27,7 @@ class UserController {
         try {
             const {email, password} = req.body;
             const userData = await userService.login(email, password);
-            res.cookie('refreshToken', userData.refreshToken, {maxAge: MAX_AGE, httpOnly: true});
+            res.cookie(COOKIE_NAME_RT, userData.refreshToken, COOKIE_OPTIONS);
             return res.json(userData);
         } catch (e) {
             next(e);
@@ -36,7 +38,7 @@ class UserController {
         try {
             const { refreshToken } = req.cookies;
             const token = await userService.logout(refreshToken);
-            res.clearCookie('refreshToken');
+            res.clearCookie(COOKIE_NAME_RT);
             return res.json(token);
         } catch (e) {
             next(e);
@@ -57,7 +59,7 @@ class UserController {
         try {
             const { refreshToken } = req.cookies;
             const userData = await userService.refresh(refreshToken);
-            res.cookie('refreshToken', userData.refreshToken, {maxAge: MAX_AGE, httpOnly: true});
+            res.cookie(COOKIE_NAME_RT, userData.refreshToken, COOKIE_OPTIONS);
             return res.json(userData);
         } catch (e) {
             next(e);
