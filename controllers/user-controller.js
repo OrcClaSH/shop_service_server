@@ -5,7 +5,7 @@ const ApiError = require('../exceptions/api-error');
 
 const MAX_AGE = 30 * 24 * 60 * 60 * 1000;
 const COOKIE_NAME_RT = 'refreshToken'
-const COOKIE_OPTIONS = {maxAge: MAX_AGE, httpOnly: true, sameSite: 'lax'}
+const COOKIE_OPTIONS = {maxAge: MAX_AGE, httpOnly: true, sameSite: 'none'}
 
 class UserController {
     async registration(req, res, next) {
