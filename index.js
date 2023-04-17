@@ -16,7 +16,8 @@ app.use(cors({
     credentials: true,
     origin: [
         process.env.CLIENT_URL,
-        `http://localhost:${PORT}`
+        `http://localhost:${PORT}`,
+        'https://shop-service-client.vercel.app'
     ],
 }));
 app.use('/api', router);
