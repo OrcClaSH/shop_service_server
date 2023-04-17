@@ -8,7 +8,7 @@ const COOKIE_NAME_RT = 'refreshToken'
 const COOKIE_OPTIONS = {
     maxAge: MAX_AGE,
     httpOnly: true,
-    sameSite: 'none',
+    sameSite: 'none', // TODO
     secure: true
 }
 

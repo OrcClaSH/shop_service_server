@@ -14,11 +14,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    // origin: process.env.CLIENT_URL,
     origin: [
         process.env.CLIENT_URL,
-        'https://shop-service-client.vercel.app',
-        'http://localhost:3000'
+        `http://localhost:${PORT}`
     ],
 }));
 app.use('/api', router);

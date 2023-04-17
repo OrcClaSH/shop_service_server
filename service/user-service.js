@@ -1,9 +1,9 @@
-const bcrypt = require('bcrypt');
 const uuid = require('uuid');
+const bcrypt = require('bcrypt');
 
+const UserDto = require('../dtos/user-dto');
 const UserModel = require('../models/user-model');
 const ApiError = require('../exceptions/api-error');
-const UserDto = require('../dtos/user-dto');
 const tokenService = require('../service/token-service');
 const mailService = require('../service/mail-service');
 
@@ -27,9 +27,9 @@ class UserService {
         const activationLink = uuid.v4();
 
         const user = await UserModel.create({ email, password: hashPassword, activationLink });
-        if (email === 'workoka@yandex.ru') {
-            await mailService.sendActivationMail(email, `${process.env.API_URL}/api/activate/${activationLink}`) // TODO
-        };
+        // if (email === process.env.EMAIL_MOCK) { // TODO
+            await mailService.sendActivationMail(email, `${process.env.API_URL}/api/activate/${activationLink}`)
+        // };
 
         const userData = await UserService.updateToken(user);
         return userData;
