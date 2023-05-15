@@ -5,6 +5,6 @@ https://github.com/OrcClaSH/shop_service_client
 
 https://shop-service-client.vercel.app/
 #
-### Stack: ~Express, Mongodb~
+### Stack: `Express, Mongodb`
 #
-### To start a project: ~yarn dev~
+### To start a project: `yarn dev`
